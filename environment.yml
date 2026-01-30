@@ -1,0 +1,16 @@
+# grape-ppi: conda environment for GrapePPI training and prediction
+name: grape-ppi
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.9,<3.12
+  - pip
+  - pip:
+    - ipykernel
+    - torch>=1.9.0
+    - numpy>=1.19.0
+    - pandas>=1.2.0
+    - h5py>=3.0.0
+    - scikit-learn>=0.24.0
+    - matplotlib>=3.3.0
